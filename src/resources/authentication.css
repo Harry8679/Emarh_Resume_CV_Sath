@@ -1,0 +1,19 @@
+.layout {
+    height: 100vh;
+    padding: 20px 50px;
+}
+
+.header {
+    height: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.content {
+    height: 87%;
+    border: 1px solid gray;
+    border-radius: 5git px;
+    margin-top: 5px;
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.486);
+}
