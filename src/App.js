@@ -1,11 +1,17 @@
 import './App.css';
-import { Button } from 'antd';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 function App() {
   return (
     <div className="App">
-      <h1>SHEY Resume Builder</h1>
-      <Button type="primary">Primary Button</Button>
+      <Router>
+        <Routes>
+          <Route element={<Login />} path='/login' />
+          <Route element={<Register />} path='/register' />
+        </Routes>
+      </Router>
     </div>
   );
 }
